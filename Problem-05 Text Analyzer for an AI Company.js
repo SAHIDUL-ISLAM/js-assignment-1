@@ -14,7 +14,7 @@ Hints 💡:  split(), join() মেথড ব্যবহার করতে প
  */
 
 /*function signature/sample */
-function  analyzeText(str) {
+function analyzeText(str) {
     if(typeof str!=='string'){
         return "Invalid";
     }
@@ -32,7 +32,7 @@ function  analyzeText(str) {
     }
     return {
         longwords: max,
-        token: sentenceTotalLength
+        token: sentenceTotalLength,
     }
 }
 const string = "I am a little honest person";
